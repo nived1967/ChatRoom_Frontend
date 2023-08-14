@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import "./App.css";
 
 let socket;
-const CONNECTION_PORT = "localhost:3002/";
+const CONNECTION_PORT = "chatroom-backend-p9d9.onrender.com/";
 
 function App() {
   // Before Login
